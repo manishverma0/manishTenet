@@ -1,0 +1,164 @@
+/* Custom Font - Garnett */
+
+@font-face {
+    font-family: 'Garnett-Regular';
+    src: local('Garnett'),
+        url('../fonts/Garnett-Regular.ttf') format(truetype)
+}
+
+@font-face {
+    font-family: 'Garnett-RegularItalic';
+    src: local('Garnett'),
+        url('../fonts/Garnett-RegularItalic.ttf') format(truetype)
+}
+
+@font-face {
+    font-family: 'Garnett-Black';
+    src: local('Garnett'),
+        url('../fonts/Garnett-Black.ttf') format(truetype)
+}
+
+@font-face {
+    font-family: 'Garnett-BlackItalic';
+    src: local('Garnett'),
+        url('../fonts/Garnett-BlackItalic.ttf') format(truetype)
+}
+
+@font-face {
+    font-family: 'Garnett-Bold';
+    src: local('Garnett'),
+        url('../fonts/Garnett-Bold.ttf') format(truetype)
+}
+
+@font-face {
+    font-family: 'Garnett-BoldItalic';
+    src: local('Garnett'),
+        url('../fonts/Garnett-BoldItalic.ttf') format(truetype)
+}
+
+@font-face {
+    font-family: 'Garnett-Light';
+    src: local('Garnett'),
+        url('../fonts/Garnett-Light.ttf') format(truetype)
+}
+
+@font-face {
+    font-family: 'Garnett-LightItalic';
+    src: local('Garnett'),
+        url('../fonts/Garnett-LightItalic.ttf') format(truetype)
+}
+
+@font-face {
+    font-family: 'Garnett-Medium';
+    src: local('Garnett'),
+        url('../fonts/Garnett-Medium.ttf') format(truetype)
+}
+
+@font-face {
+    font-family: 'Garnett-MediumItalic';
+    src: local('Garnett'),
+        url('../fonts/Garnett-MediumItalic.ttf') format(truetype)
+}
+
+@font-face {
+    font-family: 'Garnett-Semibold';
+    src: local('Garnett'),
+        url('../fonts/Garnett-Semibold.ttf') format(truetype)
+}
+
+@font-face {
+    font-family: 'Garnett-SemiboldItalic';
+    src: local('Garnett'),
+        url('../fonts/Garnett-SemiboldItalic.ttf') format(truetype)
+}
+
+/* Founders Grotesk */
+
+@font-face {
+    font-family: 'FoundersGrotesk-Bold';
+    src: local('FoundersGrotesk'),
+        url('../fonts/FoundersGrotesk-Bold.otf') format(opentype)
+}
+
+@font-face {
+    font-family: 'FoundersGrotesk-BoldItalic';
+    src: local('FoundersGrotesk'),
+        url('../fonts/FoundersGrotesk-BoldItalic.otf') format(opentype)
+}
+
+@font-face {
+    font-family: 'FoundersGrotesk-Light';
+    src: local('FoundersGrotesk'),
+        url('../fonts/FoundersGrotesk-Light.otf') format(opentype)
+}
+
+@font-face {
+    font-family: 'FoundersGrotesk-LightItalic';
+    src: local('FoundersGrotesk'),
+        url('../fonts/FoundersGrotesk-LightItalic.otf') format(opentype)
+}
+
+@font-face {
+    font-family: 'FoundersGrotesk-Medium';
+    src: local('FoundersGrotesk'),
+        url('../fonts/FoundersGrotesk-Medium.otf') format(opentype)
+}
+
+@font-face {
+    font-family: 'FoundersGrotesk-MediumItalic';
+    src: local('FoundersGrotesk'),
+        url('../fonts/FoundersGrotesk-MediumItalic.otf') format(opentype)
+}
+
+@font-face {
+    font-family: 'FoundersGrotesk-Regular';
+    src: local('FoundersGrotesk'),
+        url('../fonts/FoundersGrotesk-Regular.otf') format(opentype)
+}
+
+@font-face {
+    font-family: 'FoundersGrotesk-RegularItalic';
+    src: local('FoundersGrotesk'),
+        url('../fonts/FoundersGrotesk-RegularItalic.otf') format(opentype)
+}
+
+@font-face {
+    font-family: 'FoundersGrotesk-Semibold';
+    src: local('FoundersGrotesk'),
+        url('../fonts/FoundersGrotesk-Semibold.otf') format(opentype)
+}
+
+@font-face {
+    font-family: 'FoundersGrotesk-SemiboldItalic';
+    src: local('FoundersGrotesk'),
+        url('../fonts/FoundersGrotesk-SemiboldItalic.otf') format(opentype)
+}
+
+/* End Custom Font */
+
+:root {
+    --garnett-regular: 'Garnett-Regular';
+    --garnett-regular-italic: 'Garnett-RegularItalic';
+    --garnett-black: 'Garnett-Black';
+    --garnett-black-italic: 'Garnett-BlackItalic';
+    --garnett-bold: 'Garnett-Bold';
+    --garnett-bold-italic: 'Garnett-BoldItalic';
+    --garnett-light: 'Garnett-Light';
+    --garnett-light-italic: 'Garnett-LightItalic';
+    --garnett-medium: 'Garnett-Medium';
+    --garnett-medium-italic: 'Garnett-MediumItalic';
+    --garnett-semibold: 'Garnett-Semibold';
+    --garnett-semibold-italic: 'Garnett-SemiboldItalic';
+    --foundersGrotesk-regular: 'FoundersGrotesk-Regular';
+    --foundersGrotesk-regular-italic: 'FoundersGrotesk-RegularItalic';
+    --foundersGrotesk-black: 'FoundersGrotesk-Black';
+    --foundersGrotesk-black-italic: 'FoundersGrotesk-BlackItalic';
+    --foundersGrotesk-bold: 'FoundersGrotesk-Bold';
+    --foundersGrotesk-bold-italic: 'FoundersGrotesk-BoldItalic';
+    --foundersGrotesk-light: 'FoundersGrotesk-Light';
+    --foundersGrotesk-light-italic: 'FoundersGrotesk-LightItalic';
+    --foundersGrotesk-medium: 'FoundersGrotesk-Medium';
+    --foundersGrotesk-medium-italic: 'FoundersGrotesk-MediumItalic';
+    --foundersGrotesk-semibold: 'FoundersGrotesk-Semibold';
+    --foundersGrotesk-semibold-italic: 'FoundersGrotesk-SemiboldItalic';
+}
